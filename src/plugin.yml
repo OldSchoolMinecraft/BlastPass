@@ -1,0 +1,17 @@
+name: BlastPass
+main: com.oldschoolminecraft.blastpass.BlastPass
+version: 1.0
+author: YourName
+softdepend: [Essentials, OSM-Ess]
+commands:
+  blastpass:
+    description: Manage BlastPass playtime requirements
+    usage: /blastpass <settime|check> [minutes|player]
+    permission: blastpass.admin
+permissions:
+  blastpass.admin:
+    description: Allows access to BlastPass admin commands
+    default: op
+  blastpass.bypass:
+    description: Bypass playtime requirement for TNT usage
+    default: op

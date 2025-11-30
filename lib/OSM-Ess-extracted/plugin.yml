@@ -1,0 +1,59 @@
+name: OSM-Ess
+main: com.oldschoolminecraft.OSMEss.OSMEss
+version: 1.1
+authors: [SavageUser, moderator_man, ItsVollx]
+depend:
+  - Essentials
+softdepend:
+  - Invisiman
+  - Landmarks
+  - Lockette
+  - OSAS
+  - PermissionsEx
+  - ScheduledDeath
+
+commands:
+  auction:
+    description: Starts an action with the item you're holding.
+  baltop:
+    aliases: [balancetop]
+    description: Shows a list of the top 10 players' balance.
+  bid:
+    description: Places a bid on an active auction.
+  chatcolor:
+    aliases: [cc]
+    description: Sets the color of the message typed in public chat.
+  discord:
+    description: Gives you the link to the discord server.
+  endauction:
+    description: Forcefully ends an auction.
+  ignorebroadcast:
+    aliases: [ignorebroadcasts]
+    description: Toggles visibility of the auto broadcast messages.
+  list:
+    aliases: [online]
+    description: Shows a list of online players.
+  ping:
+    aliases: [ms]
+    description: Shows your ping/latency in milliseconds.
+  ptt:
+    description: Shows a list of the top 10 longest played players.
+  rainbow:
+    description: Gives you a rainbow name.
+  seen:
+    description: Shows info on a player's playtime, first join date, and more.
+  staff:
+    description: Toggles staff mode.
+  warn:
+    description: Warns a player.
+  warnings:
+    description: Shows a player's list of warnings, or choose to clear them.
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="OSM-Ess">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/OSM-Ess.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
